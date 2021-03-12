@@ -1,14 +1,16 @@
 fun main() {
+    akir()
     println(person("Juliet",21))
     println(long("The power of a Vision Board"))
-    print(condition())
+    println(condition("Juliet"))
 }
-//fun akir() {
-//    var word = "Akirachix"
-//    var a = word[0]
-//    var b = word[3]
-//    var c = word[4]
-//
+fun akir() {
+    var word = "Akirachix"
+    var a = word[0]
+    var b = word[2]
+    var c = word[3]
+    println("$a$b$c")
+}
 
 fun person(name:String,age:Int):String {
     return "Hi my name is $name and I am $age years old ."
@@ -19,8 +21,8 @@ fun long(word:String):Int {
 }
 
 fun condition(jina:String) {
-    if (jina == "mine"){
-        print("That's me ! ")
+    if (jina == "Juliet"){
+        print("That's me!")
     }else{
         print("I dont know who that is")
     }
